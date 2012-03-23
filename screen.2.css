@@ -1,0 +1,248 @@
+body {
+  /* background: #171717; */
+  /* background-image: url(images/bg2.png); */
+  background: #333;
+  background-image: url(/images/bg-red.png);
+  /* background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+  font-family: "Apple LiGothic", "Helvetica", sans-serif;
+  color: #ddd;
+  font-size: 120%;
+  padding: 0;
+  margin: 20px;
+  padding-bottom: 120px;
+  /*padding-right: 300px;*/
+}
+
+/*#goldbar {
+  background: #cc5;
+  width: 5px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}*/
+
+/*#everything {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+#main {
+  /*margin: 10px;*/
+  overflow: hidden;
+	width: 100%;
+}
+
+
+.image {
+  background: url(1x1_black_50_alpha.png);
+  width: 250px;
+  height: 140px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  position: relative;
+}
+
+.image:hover {
+  /*background: #111;*/
+  border: #522 1px solid;
+  padding: 4px;
+}
+
+.image .meta {
+  background: url(1x1_black_50_alpha.png);
+  font-size: 1em;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 2px 2px 2px 4px;
+}
+
+.image .meta .title {
+  font-style: italic;
+}
+
+/*#content .title {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+  /*border-bottom: 3px solid #cc5;
+  padding-bottom: 1px;
+}*/
+
+#content div.content {
+  display:none;
+  /*background: #1b5578;*/
+  background: url(1x1_black_50_alpha.png);
+  /*border: solid #cc5;
+  border-width: 3px 0 0 3px;*/
+  font-size: 1.2em;
+  padding: 20px 50px 50px 50px;
+  line-height: 1.2em;
+  /*opacity: 0.50;
+	filter: alpha(opacity:50);*/
+	width: 400px;
+	min-height: 338px;
+	/*overflow: scroll;
+	height: 500px;*/
+}
+
+#content {
+  position: relative;
+  float: left;
+}
+
+#content .section-title {
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+#info {
+	width: 290px;
+	background: url(1x1_black_50_alpha.png);
+	/*height: 300px;*/
+	margin: 10px 3px 20px 20px;
+	/*float: right;*/
+	position: absolute;
+	right: 0;
+	font-size: 1.2em;
+	padding: 6px;
+	line-height: 1.2em;
+}
+
+#menu {
+  /*margin: 0;list-style: none;*/
+  /*position: relative;
+  float: left;*/
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /*background: #0c2f45;*/
+  /*background: url(1x1_black_50_alpha.png);*/
+  background: #141414;
+  /*background-image: url(bg2.png);*/
+  /*width: 150px;*/
+  width: 100%;
+  color: #fff;
+  list-style: none;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+#menu .submenu {
+  list-style: none;
+  margin: 0; padding: 0;
+}
+#menu li.main {
+  float: left;
+}
+#menu li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 2px 8px 2px 8px;
+}
+#menu a:hover {
+  background: #2c4f65;
+}
+#menu li.main a.main {
+  font-size: 1.8em;
+  line-height: 0.9em;
+  padding-top: 5px;
+}
+#menu li.sub a {
+  padding-left: 14px;
+  font-size: 1em;
+  line-height: 0.9em;
+}
+#menu a.selected {
+  /*background: #2c4f65;*/
+  border: solid #cc5;
+  border-width: 2px 0 0 2px;
+}
+#footer #copyright {
+  position:fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 3px 3px 3px 5px;
+  color: #777;
+}
+#footer #also {
+  position:fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 3px;
+  display: none;
+}
+
+a {
+  color: #2c8ac4;
+}
+#header {
+  overflow: hidden;
+	width: 100%;
+}
+#logo {
+  margin: 40px 20px 20px 20px;
+  /*position: fixed;*/
+  /*position: absolute;
+  top:0;
+  right:0;*/
+  float: right;
+}
+
+#logo .name {
+  font-size: 4em;
+  color: #fff;
+  line-height: 40px;
+}
+#logo .description {
+  font-size: 1.2em;
+  padding-left: 15px;
+}
+
+#twitter {
+  float: left;
+  margin: 5px 0 0 5px;
+  width: 300px;
+  padding: 10px;
+  background: url(1x1_black_50_alpha.png);
+}
+#twitter img {
+  vertical-align: text-top;
+}
+#twitter .tweet {
+  font-style: italic;
+}
+
+#me {float: left;margin:5px;}
+
+
+/*JUITTER PLUGIN CSS*/
+
+#twitter{} /*Juitter container*/
+
+#twitter .twittList{margin:0;padding:0;} /* UL that will contain the list of tweets */
+
+/* Bellow the list of tweets "<li>" */
+
+#twitter .twittLI{list-style:none;margin:0;padding:0;clear:both;} 
+#twitter .twittList SPAN.time{color:#444;font-size:0.9em;display:block;}
+#twitter .twittList A{} /*Links inside the tweets list */
+
+/* Bellow the CSS for the avatar image  */
+
+#twitter .juitterAvatar{float:left;border:solid 1px #D3EECA;background:#FFF;margin-right:5px;padding:2px;width:48px;;height:48px;}
+
+#twitter .jRM{float:right;clear:both} /*read it on twitter link*/
+
+#twitter .extLink{} /*CSS for the external links*/
+
+#twitter .hashLink{} /*CSS for the hash links*/
+
+/*end of Juitter CSS*/
