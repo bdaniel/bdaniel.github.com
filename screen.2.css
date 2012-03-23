@@ -37,6 +37,10 @@ body {
 	width: 100%;
 }
 
+img {
+  border: none;
+}
+
 
 .image {
   background: url(http://bdnet.images.s3.amazonaws.com/1x1_black_50_alpha.png);
