@@ -2,7 +2,7 @@ body {
   /* background: #171717; */
   /* background-image: url(images/bg2.png); */
   background: #333;
-  background-image: url(/images/bg-red.png);
+  background-image: url(http://bdnet.images.s3.amazonaws.com/bg-red.png);
   /* background-repeat: repeat-y; */
   background-repeat: no-repeat;
   background-position: top right;
@@ -39,7 +39,7 @@ body {
 
 
 .image {
-  background: url(1x1_black_50_alpha.png);
+  background: url(http://bdnet.images.s3.amazonaws.com/1x1_black_50_alpha.png);
   width: 250px;
   height: 140px;
   padding: 5px;
@@ -55,7 +55,7 @@ body {
 }
 
 .image .meta {
-  background: url(1x1_black_50_alpha.png);
+  background: url(http://bdnet.images.s3.amazonaws.com/1x1_black_50_alpha.png);
   font-size: 1em;
   position: absolute;
   bottom: 5px;
@@ -79,7 +79,7 @@ body {
 #content div.content {
   display:none;
   /*background: #1b5578;*/
-  background: url(1x1_black_50_alpha.png);
+  background: url(http://bdnet.images.s3.amazonaws.com/1x1_black_50_alpha.png);
   /*border: solid #cc5;
   border-width: 3px 0 0 3px;*/
   font-size: 1.2em;
@@ -105,7 +105,7 @@ body {
 
 #info {
 	width: 290px;
-	background: url(1x1_black_50_alpha.png);
+	background: url(http://bdnet.images.s3.amazonaws.com/1x1_black_50_alpha.png);
 	/*height: 300px;*/
 	margin: 10px 3px 20px 20px;
 	/*float: right;*/
@@ -211,7 +211,7 @@ a {
   margin: 5px 0 0 5px;
   width: 300px;
   padding: 10px;
-  background: url(1x1_black_50_alpha.png);
+  background: url(http://bdnet.images.s3.amazonaws.com/1x1_black_50_alpha.png);
 }
 #twitter img {
   vertical-align: text-top;
